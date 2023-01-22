@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  height: 20vh;
+  background-color: $color-header;
+  font-family: $font-web;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  @include tablet {
+    height: 22vh;
+  }
+  @include desktop {
+    height: 12vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 33px;
+    &--img {
+      width: 100%;
+      height: 100%;
+    }
+    &--title {
+      font-size: 30px;
+    }
+  }
+  &__nav {
+    width: 100%;
+    background-color: $color-links;
+    @include desktop {
+      width: 40%;
+    }
+    &--list {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto;
+      &-item {
+        text-align: center;
+        padding: 12px 0;
+      }
+      &-item:hover {
+        background-color: $color-hover;
+      }
+      &-link {
+        color: $color-primary;
+        text-decoration: none;
+      }
+    }
+  }
+}
