@@ -1,0 +1,19 @@
+.main__article--quote {
+  border-top: 1px solid $color-secondary;
+  border-bottom: 1px solid $color-secondary;
+  padding-bottom: 20px;
+  &-title {
+    font-size: rem(25);
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    padding: 20px 0;
+  }
+  &-text {
+    font-size: rem(18);
+    line-height: 1.1;
+    padding-left: 21px;
+    border-left: 4px solid $color-quote;
+    position: relative;
+    left: 23px;
+  }
+}

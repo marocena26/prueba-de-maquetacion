@@ -1,9 +1,11 @@
 @import "core/reset";
+@import "core/functions";
 @import "core/variables";
 @import "core/mixins";
+@import "layout/layout";
 @import "layout/header";
+@import "layout/main";
 @import "layout/footer";
-// @import 'layout/page';
-
-// @import 'layout/footer';
-// @import 'pages/index';
+@import "pages/article";
+@import "pages/articleQuote";
+@import "pages/aside";
