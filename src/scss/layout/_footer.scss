@@ -25,7 +25,8 @@
       margin-left: 2%;
     }
     @include desktop {
-      width: 40%;
+      width: 30%;
+      margin-left: 8%;
     }
     &--list {
       font-size: rem(18);
@@ -53,7 +54,8 @@
       margin-right: 2%;
     }
     @include desktop {
-      width: 20%;
+      width: 18%;
+      margin-right: 8%;
     }
     &--list {
       font-size: rem(18);

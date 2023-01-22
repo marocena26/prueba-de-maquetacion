@@ -11,12 +11,13 @@
     width: 275px;
     max-width: 275px;
     min-width: 275px;
-    height: 78.5vh;
+    height: 73vh;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 0px;
-    padding-top: 20px;
-    margin-right: 59px;
+    align-items: center;
+    gap: 0;
+    margin-right: 64px;
+    padding-top: 15px;
   }
   &--section {
     @include tablet {
@@ -27,9 +28,10 @@
       background-color: $color-header;
     }
     @include desktop {
-      width: 79%;
+      width: 80%;
       height: 22%;
-      margin-top: 3%;
+      margin-top: 10px;
+      margin-bottom: 0;
     }
   }
 }

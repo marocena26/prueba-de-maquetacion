@@ -1,3 +1,7 @@
 .main {
   background-color: $color-primary;
+  @include desktop {
+    display: flex;
+    border-left: 64px solid $color-quote;
+  }
 }

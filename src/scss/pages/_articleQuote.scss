@@ -1,12 +1,17 @@
 .main__article--quote {
   border-top: 1px solid $color-secondary;
   border-bottom: 1px solid $color-secondary;
-  padding: 0 20px 19px 20px;
+  padding-bottom: 19px;
+  margin: 0 20px;
   &-title {
     font-size: rem(25);
     font-weight: 800;
     letter-spacing: 1.2px;
     padding: 20px 0;
+    @include desktop {
+      font-size: rem(20);
+      padding: 15px 0;
+    }
   }
   &-text {
     width: 80%;
@@ -16,5 +21,8 @@
     border-left: 4px solid $color-quote;
     position: relative;
     left: 30px;
+    @include desktop {
+      font-size: rem(16);
+    }
   }
 }
