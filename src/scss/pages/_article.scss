@@ -1,13 +1,13 @@
 .main__article {
-  padding-bottom: 18px;
+  padding-bottom: 19px;
   &--title {
-    font-size: rem(23);
+    font-size: rem(25);
     font-weight: 800;
     letter-spacing: 1.2px;
-    padding: 18px 0;
+    padding: 20px 0;
   }
   &--text {
     font-size: rem(18);
-    line-height: 1.1;
+    line-height: 1.2;
   }
 }
