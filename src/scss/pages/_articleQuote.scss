@@ -1,7 +1,7 @@
 .main__article--quote {
   border-top: 1px solid $color-secondary;
   border-bottom: 1px solid $color-secondary;
-  padding-bottom: 19px;
+  padding: 0 20px 19px 20px;
   &-title {
     font-size: rem(25);
     font-weight: 800;
@@ -9,12 +9,12 @@
     padding: 20px 0;
   }
   &-text {
-    width: 90%;
+    width: 80%;
     font-size: rem(18);
     line-height: 1.2;
     padding-left: 21px;
     border-left: 4px solid $color-quote;
     position: relative;
-    left: 23px;
+    left: 30px;
   }
 }

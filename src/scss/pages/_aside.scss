@@ -1,3 +1,35 @@
 .main__aside {
   display: none;
+  @include tablet {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $color-aside;
+    gap: 20px;
+  }
+  @include desktop {
+    width: 275px;
+    max-width: 275px;
+    min-width: 275px;
+    height: 78.5vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+    padding-top: 20px;
+    margin-right: 59px;
+  }
+  &--section {
+    @include tablet {
+      width: 200px;
+      height: 130px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: $color-header;
+    }
+    @include desktop {
+      width: 79%;
+      height: 22%;
+      margin-top: 3%;
+    }
+  }
 }
