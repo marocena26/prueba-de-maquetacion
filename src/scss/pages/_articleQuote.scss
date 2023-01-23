@@ -14,15 +14,18 @@
     }
   }
   &-text {
-    width: 80%;
-    font-size: rem(16);
+    width: 85%;
+    font-size: rem(18);
     line-height: 1.2;
     padding-left: 21px;
     border-left: 4px solid $color-quote;
     position: relative;
     left: 30px;
+    @include tablet {
+      font-size: rem(16);
+    }
     @include desktop {
-      font-size: rem(14);
+      font-size: rem(15);
     }
   }
 }

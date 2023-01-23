@@ -1,5 +1,6 @@
 .main {
   height: 65vh;
+  background-color: $color-primary;
 
   @include tablet {
     height: 78vh;
@@ -7,6 +8,6 @@
 
   @include desktop {
     display: flex;
-    border-left: 64px solid $color-background;
+    margin: 0 64px;
   }
 }

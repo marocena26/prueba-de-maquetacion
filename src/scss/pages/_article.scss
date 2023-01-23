@@ -2,11 +2,8 @@
   padding-bottom: 16px;
   padding-left: 20px;
 
-  @include desktop {
-    padding-right: 1.9%;
-  }
   &--title {
-    font-size: rem(22);
+    font-size: rem(24);
     font-weight: 800;
     letter-spacing: 1.2px;
     padding: 16px 0;
@@ -17,10 +14,13 @@
     }
   }
   &--text {
-    font-size: rem(16);
+    font-size: rem(18);
     line-height: 1.2;
+    @include tablet {
+      font-size: rem(16);
+    }
     @include desktop {
-      font-size: rem(14);
+      font-size: rem(15);
       margin-right: 9px;
     }
   }
