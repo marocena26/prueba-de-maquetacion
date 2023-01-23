@@ -1,5 +1,9 @@
 # Prueba de maquetación
 
+## 👩🏻‍💻 Author 
+
+Mª Elena Arocena López: [@marocena26](https://github.com/marocena26)
+
 ## 🚀 Introduction
 
 In this repository you can find the files generated for the Front selection process for [Create](https://www.create-store.com/es/)'s.
