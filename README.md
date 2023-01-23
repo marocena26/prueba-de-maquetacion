@@ -29,7 +29,6 @@ The following **requirements** have to be respected:
 - **Use** the **BEM** methodology.
 
 ## 🛠️ Tools
-The project has been developed with **'Starter Kit'**, a framework created in node and gulp that has pre-installed and pre-configured functionalities. It also contains an **HTML template engine**, a **Sass preprocessor** and a local server, among other elements.
 
 The following tools have been used when solving the project:
 
@@ -47,9 +46,7 @@ The following tools have been used when solving the project:
 
 ## 💾 Steps to follow to use this project on your computer:
 
-> **NOTE:** This project has been carried out using **Starter Kit**.
-
-**First** of all, in order to have the repository on your computer:
+> **NOTE:**  You need to have **Node JS** installed to run this project.
 
 1. **Go to github.com/your-user/name-of-project**, **clone it** and do whatever you want, you can rename the repo, change the code, redeploy it to GitHub Pages...
 2. **Finally** and for everything to work properly, **you must disable GitHub Pages and re-enable** it so that GitHub generates the new URL correctly.
