@@ -4,12 +4,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: $color-aside;
     gap: 20px;
   }
   @include desktop {
-    width: 275px;
-    min-width: 275px;
+    width: 250px;
+    min-width: 250px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -18,16 +19,16 @@
   }
   &--section {
     @include tablet {
-      width: 200px;
-      height: 130px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      width: 190px;
+      height: 125px;
+      margin-top: 2%;
+      margin-bottom: 2%;
       background-color: $color-header;
     }
     @include desktop {
-      width: 80%;
+      width: 79%;
       height: 22%;
-      margin-top: 10px;
+      margin-top: 4%;
       margin-bottom: 0;
     }
   }

@@ -49,14 +49,13 @@
     }
   }
   &__social {
-    width: 30%;
     background-color: $color-links-social;
     @include tablet {
       width: 20%;
       margin-right: 4%;
     }
     @include desktop {
-      width: 10%;
+      width: 12%;
       margin-right: 8%;
     }
     &--list {
