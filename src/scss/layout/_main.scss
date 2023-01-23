@@ -1,7 +1,12 @@
 .main {
-  background-color: $color-primary;
+  height: 65vh;
+
+  @include tablet {
+    height: 78vh;
+  }
+
   @include desktop {
     display: flex;
-    border-left: 64px solid $color-quote;
+    border-left: 64px solid $color-background;
   }
 }

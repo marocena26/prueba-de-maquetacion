@@ -1,15 +1,15 @@
 .main__article {
-  padding-bottom: 19px;
+  padding-bottom: 16px;
   padding-left: 20px;
 
   @include desktop {
     padding-right: 1.9%;
   }
   &--title {
-    font-size: rem(25);
+    font-size: rem(22);
     font-weight: 800;
     letter-spacing: 1.2px;
-    padding: 20px 0;
+    padding: 16px 0;
 
     @include desktop {
       font-size: rem(20);
@@ -17,10 +17,10 @@
     }
   }
   &--text {
-    font-size: rem(18);
+    font-size: rem(16);
     line-height: 1.2;
     @include desktop {
-      font-size: rem(16);
+      font-size: rem(14);
       margin-right: 9px;
     }
   }
